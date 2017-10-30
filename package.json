@@ -1,0 +1,36 @@
+{
+  "name": "react-cli",
+  "version": "1.0.0",
+  "description": "1. 使用一条简单的命令就可以架起一个react react-router react-redux的开发环境,并打开浏览器,mock数据.下一秒就可以开始编程",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./webpackConfig/dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobbist/react-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mobbist/react-cli/issues"
+  },
+  "homepage": "https://github.com/mobbist/react-cli#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^2.30.1",
+    "opn": "^5.1.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.9.3",
+    "webpack-hot-middleware": "^2.20.0",
+    "webpack-merge": "^4.1.0"
+  }
+}
